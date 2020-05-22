@@ -11,7 +11,7 @@
 ![Signup Page](screenshots/signup.png)
 
 ### Home page
-![Home Page](screenshots/signin.png)
+![Home Page](screenshots/home.png)
 
 ### Targets page 0
 ![Signin Page](screenshots/targets0.png)
