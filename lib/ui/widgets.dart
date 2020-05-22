@@ -22,6 +22,27 @@ class InputField extends StatelessWidget {
   }
 }
 
+class DarkInputField extends StatelessWidget {
+  final String input;
+  const DarkInputField({
+    this.input,
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(28.0, 5, 28, 5),
+      child: TextField(
+        decoration: InputDecoration(
+            hintText: '  ${this.input}',
+            hintStyle: GoogleFonts.poppins(color: Colors.black, fontSize: 12)),
+      ),
+    );
+  }
+}
+
+
 class Logo extends StatelessWidget {
   const Logo({
     Key key,

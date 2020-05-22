@@ -3,63 +3,63 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'widgets.dart';
 
-class AddPlan extends StatefulWidget {
+class Deposit extends StatefulWidget {
   @override
-  _AddPlanState createState() => _AddPlanState();
+  _DepositState createState() => _DepositState();
 }
 
-class _AddPlanState extends State<AddPlan> {
-  int page;
+class _DepositState extends State<Deposit> {
+  int _page;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[900],
+      backgroundColor: Colors.white,
         body: SafeArea(
       child: ListView(
         children: <Widget>[
-          SizedBox(height: 30),
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 28.0),
+            padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 28.0),
             child: Text(
-              'Add a plan',
+              'Deposit money',
               style: GoogleFonts.raleway(
                 textStyle: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     letterSpacing: .5,
                     fontWeight: FontWeight.bold,
-                    fontSize: 35),
+                    fontSize: 25),
               ),
             ),
           ),
-          InputField(input: 'Plan Name',),
-          InputField(input: 'Target',),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 28.0),
-            child: Text(
-                'Add payment method',
+            child: Center(
+              child: Text(
+                'Savings Chest',
                 style: GoogleFonts.raleway(
                   textStyle: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       letterSpacing: .5,
                       fontWeight: FontWeight.bold,
-                      fontSize: 20),
+                      fontSize: 19),
                 ),
               ),
+            ),
           ),
-          InputField(input: 'card number',),
-          InputField(input: 'cvv',),
-          InputField(input: 'expiry date',),
+          DarkInputField(input: 'amount',),
+          DarkInputField(input: 'card number',),
+          DarkInputField(input: 'cvv',),
+          DarkInputField(input: 'expiry date',),
           Padding(
             padding: const EdgeInsets.all(28.0),
             child: RaisedButton(
               onPressed: (){},
-              color: Colors.white,
+              color: Colors.black,
               child: Text(
-              'Add Plan',
+              'Sign Up',
               style: GoogleFonts.raleway(
                 textStyle: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     letterSpacing: .5,
                     fontSize: 17.5
                     ),
@@ -79,16 +79,14 @@ class _AddPlanState extends State<AddPlan> {
           ],
           onTap: (index) {
             setState(() {
-              page = index;
+              _page = index;
             });
           },
           color: Colors.black,
           height: 50,
           buttonBackgroundColor: Colors.black,
-          animationDuration: Duration(milliseconds: 300),
           backgroundColor: Colors.white.withOpacity(0),
-        ),
-    );
+        ),);
   }
 }
 
