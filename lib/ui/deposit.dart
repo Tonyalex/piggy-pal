@@ -56,7 +56,7 @@ class _DepositState extends State<Deposit> {
               onPressed: (){},
               color: Colors.black,
               child: Text(
-              'Sign Up',
+              'Save',
               style: GoogleFonts.raleway(
                 textStyle: TextStyle(
                     color: Colors.white,

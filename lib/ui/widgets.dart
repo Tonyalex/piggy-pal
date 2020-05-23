@@ -75,7 +75,9 @@ class Logo extends StatelessWidget {
 }
 
 class Service extends StatelessWidget {
+  final String service;
   const Service({
+    this.service,
     Key key,
   }) : super(key: key);
 
@@ -89,7 +91,7 @@ class Service extends StatelessWidget {
             contentPadding: const EdgeInsets.all(15),
             leading: Icon(Icons.monetization_on, color: Colors.white),
             title: Text(
-              'Pay Your Bills',
+              this.service,
               style: GoogleFonts.raleway(
                 textStyle: TextStyle(color: Colors.white),
               ),
