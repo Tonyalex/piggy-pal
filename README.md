@@ -7,15 +7,15 @@
 |Sign In page | Sign Up page |
 | :---        |    :----:   |
 | ![Signin Page](screenshots/signin.png) |![Signup Page](screenshots/signup.png)|
-|   Home page   |      Targets page 0       |
+|   Home page 0  |      Home page 1       |
 | :---        |    :----:   |
-| ![Home Page](screenshots/home.png) | ![Signin Page](screenshots/targets0.png) |
-|Targets page 1|Add Plan page|
+| ![Home Page](screenshots/home0.png) | ![Home Page1 Page](screenshots/home1.png) |
+|Targets page 0|Targets page 1|
 | :---        |    :----:   |
-|![Signin Page](screenshots/targets.png)|![Signin Page](screenshots/addplan.png)|
-|Deposit page||
-| :---        | 
-|![Signin Page](screenshots/deposit.png)|
+|![Targets Page 0](screenshots/targets0.png)|![Targets Page 1](screenshots/targets1.png)|
+|Deposit page| Add Plan Page|
+| :---        |    :----:   |
+|![deposit Page](screenshots/deposit.png)|![add plan Page](screenshots/deposit.png)|
 
 
 
