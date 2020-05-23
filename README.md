@@ -4,16 +4,18 @@
 
 ## 30 DOC days 20 - 22 solution
 
-
-| :---        |    :----:   |
 |Sign In page | Sign Up page |
+| :---        |    :----:   |
 | ![Signin Page](screenshots/signin.png) |![Signup Page](screenshots/signup.png)|
 |   Home page   |      Targets page 0       |
+| :---        |    :----:   |
 | ![Home Page](screenshots/home.png) | ![Signin Page](screenshots/targets0.png) |
 |Targets page 1|Add Plan page|
+| :---        |    :----:   |
 |![Signin Page](screenshots/targets.png)|![Signin Page](screenshots/addplan.png)|
 |Deposit page||
-|![Signin Page](screenshots/deposit.png)||
+| :---        | 
+|![Signin Page](screenshots/deposit.png)|
 
 
 
