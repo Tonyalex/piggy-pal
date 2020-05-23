@@ -4,11 +4,16 @@
 
 ## 30 DOC days 20 - 22 solution
 
-### Sign In page
-![Signin Page](screenshots/signin.png)
+| Syntax      | Description | 
+| :---        |    :----:   |
+|Sign In page | Sign Up page |
+| ![Signin Page](screenshots/signin.png) |![Signup Page](screenshots/signup.png)|
 
-### Sign Up page
-![Signup Page](screenshots/signup.png)
+
+
+
+### 
+
 
 ### Home page
 ![Home Page](screenshots/home.png)
