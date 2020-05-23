@@ -5,7 +5,7 @@
 ## 30 DOC days 20 - 22 solution
 
 |Sign In page | Sign Up page |
-| :----:        |    :---- : |
+| :----:        |    ---- : |
 | ![Signin Page](screenshots/signin.png) |![Signup Page](screenshots/signup.png)|
 |   Home page 0  |      Home page 1       |
 | ![Home Page](screenshots/home0.png) | ![Home Page1 Page](screenshots/home1.png) |
