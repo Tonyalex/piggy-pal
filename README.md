@@ -15,7 +15,7 @@
 |![Targets Page 0](screenshots/targets0.png)|![Targets Page 1](screenshots/targets1.png)|
 |Deposit page| Add Plan Page|
 | :---        |    :----:   |
-|![deposit Page](screenshots/deposit.png)|![add plan Page](screenshots/deposit.png)|
+|![deposit Page](screenshots/deposit.png)|![add plan Page](screenshots/addplan.png)|
 
 
 
